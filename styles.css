@@ -75,6 +75,7 @@ hr{
     height: 300px;
     background: url('./Img/fondo-principito.jpg') no-repeat center center/cover;
     padding-bottom: 50px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,3 +104,107 @@ hr{
 .showcase p{
     margin-bottom: 15px;
 }
+
+/* NOTICIAS*/
+
+.noticias{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 10px 0;
+}
+.noticias img{
+    width: 100%;
+    height: 200px;
+}
+
+.noticias h3{
+    font-size: 20px;
+    margin: 10px o;
+}
+.noticias a{
+    padding: 10px o;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.noticias a:hover {
+text-decoration: underline;
+}
+
+
+/* BANNER UNO*/
+.noti-banner{
+    width: 100% ;
+    height: 480px;
+    background: url('Img/unobanner.jpg');
+    margin-bottom: 40px;
+}
+.noti-banner .conten{
+    width: 100%;
+    padding: 90px 0 0 30px;
+    color: blue
+    
+}
+.noti-banner p,
+.noti-banner h2{
+    margin: 10px 0 20px 0;
+}
+
+/*SOCIAL*/
+
+.social{
+    margin: 50px;
+}
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.links a {
+    margin: 0 20px
+    }
+.links a i{
+    font-size: 3rem ;
+    }
+
+/*FOOTER LINKS*/
+
+.footer-links{
+    background: grey;
+    color: hotpink;
+    font-size: 12px;
+    padding: 35px;
+    }
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    }
+
+.footer-container ul{
+    margin: 0 auto;
+    }
+
+    .footer-container ul li{
+        line-height: 2.8;
+    }
+
+    .footer{
+        background: #2f3640;
+        color: black;
+        font-size: 12px;
+        padding: 20px o;
+        text-align: center;
+        padding-bottom: 20px;
+    }
